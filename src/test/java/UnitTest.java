@@ -6,25 +6,25 @@ public class UnitTest {
   @Test
   public void coinCounter_oneCentEqualsOnePenny_onePenny() {
     App testApp = new App();
-    assertEquals("0 quarter, 0 dime, 0 nickel and 1 penny.", testApp.coinCounter(1));
+    assertEquals("0 quarters, 0 dimes, 0 nickels and 1 penny.", testApp.coinCounter(1));
   }
 
   @Test
   public void coinCounter_fiveCentsEqualsOneNickel_oneNickel() {
     App testApp = new App();
-    assertEquals("0 quarter, 0 dime, 1 nickel and 0 penny.", testApp.coinCounter(5));
+    assertEquals("0 quarters, 0 dimes, 1 nickel and 0 pennies.", testApp.coinCounter(5));
   }
 
   @Test
   public void coinCounter_eightCentsEqualsOneNickelThreePennies_oneNickelThreePennies() {
     App testApp = new App();
-    assertEquals("0 quarter, 0 dime, 1 nickel and 3 pennies.", testApp.coinCounter(8));
+    assertEquals("0 quarters, 0 dimes, 1 nickel and 3 pennies.", testApp.coinCounter(8));
   }
 
   @Test
   public void coinCounter_seventeenCentsEqualsOneDimeOneNickelTwoPennies_oneDimeOneNickelTwoPennies() {
     App testApp = new App();
-    assertEquals("0 quarter, 1 dime, 1 nickel and 2 pennies.", testApp.coinCounter(17));
+    assertEquals("0 quarters, 1 dime, 1 nickel and 2 pennies.", testApp.coinCounter(17));
   }
 
   @Test

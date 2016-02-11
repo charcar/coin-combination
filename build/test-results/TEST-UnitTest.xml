@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-02-11T19:17:01" hostname="epicodus-60.local" time="0.002">
+<testsuite name="UnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-02-11T21:33:01" hostname="epicodus-60.local" time="0.007">
   <properties/>
-  <testcase name="coinCounter_seventeenCentsEqualsOneDimeOneNickelTwoPennies_oneDimeOneNickelTwoPennies" classname="UnitTest" time="0.001"/>
+  <testcase name="coinCounter_seventeenCentsEqualsOneDimeOneNickelTwoPennies_oneDimeOneNickelTwoPennies" classname="UnitTest" time="0.0"/>
   <testcase name="coinCounter_eightCentsEqualsOneNickelThreePennies_oneNickelThreePennies" classname="UnitTest" time="0.0"/>
-  <testcase name="coinCounter_oneCentEqualsOnePenny_onePenny" classname="UnitTest" time="0.0"/>
+  <testcase name="coinCounter_oneCentEqualsOnePenny_onePenny" classname="UnitTest" time="0.001"/>
   <testcase name="coinCounter_fiveCentsEqualsOneNickel_oneNickel" classname="UnitTest" time="0.0"/>
-  <testcase name="coinCounter_sixtynineCentsEqualsTwoQuartersOneDimeOneNickelFourPennies_oneQuarterOneDimeOneNickelFourPennies" classname="UnitTest" time="0.001"/>
-  <testcase name="coinCounter_fortyfourCentsEqualsOneQuarterOneDimeOneNickelFourPennies_oneQuarterOneDimeOneNickelFourPennies" classname="UnitTest" time="0.0"/>
+  <testcase name="coinCounter_sixtynineCentsEqualsTwoQuartersOneDimeOneNickelFourPennies_oneQuarterOneDimeOneNickelFourPennies" classname="UnitTest" time="0.0"/>
+  <testcase name="coinCounter_fortyfourCentsEqualsOneQuarterOneDimeOneNickelFourPennies_oneQuarterOneDimeOneNickelFourPennies" classname="UnitTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -21,8 +21,9 @@ public class IntegrationTest extends FluentTest {
       assertThat(pageSource()).contains("Enter sCents:");
   }
 
-  // @Test
-  // public void resultsTest() {
-  //     goTo("http://localhost:4567/results")
-  // }
+  @Test
+  public void resultsTest() {
+      goTo("http://localhost:4567/results?cents=25");
+      assertThat(pageSource()).contains("1 quarter, 0 dimes, 0 nickels and 0 pennies.");
+  }
 }

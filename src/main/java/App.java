@@ -34,17 +34,24 @@ public class App {
       Integer dimes = 0;
       Integer nickels = 0;
 
-      while ( cents >= 25 ) {
+      Integer quarterStack = 10;
+      Integer dimeStack = 10;
+      Integer nickelStack = 10;
+
+      while ( cents >= 25 && quarterStack > 0 ) {
         cents = cents - 25;
         quarters++;
+        quarterStack--;
       }
-      while ( cents >= 10) {
+      while ( cents >= 10 && dimeStack > 0 ) {
         cents = cents - 10;
+        dimeStack--;
         dimes++;
       }
-      while ( cents >= 5 ) {
+      while ( cents >= 5 && nickelStack > 0 ) {
         cents = cents - 5;
         nickels++;
+        nickelStack--;
       }
 
       Integer pennies = cents;
