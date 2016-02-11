@@ -20,4 +20,7 @@ public class IntegrationTest extends FluentTest {
       goTo("http://localhost:4567/");
       assertThat(pageSource()).contains("Enter sCents:");
   }
+
+  // @Test
+  // public void
 }

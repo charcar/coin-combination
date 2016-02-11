@@ -17,10 +17,12 @@ public class App {
 
         get("/results", (request, response) -> {
           HashMap<String, Object> model = new HashMap<String, Object>();
-          model.put("template", "templates/home.vtl");
+          model.put("template", "templates/results.vtl");
 
-          String sCents = request.queryParams("sCents");
+          String sCents = request.queryParams("cents");
           Integer cents = Integer.parseInt(sCents);
+          String correctChange = coinCounter(cents);
+          model.put("correctChange", correctChange);
           return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
