@@ -54,25 +54,25 @@ public class App {
       String nickelName = "";
       String pennyName = "";
 
-      if (quarters > 1) {
+      if (quarters != 1) {
         quarterName = " quarters, ";
       } else {
         quarterName = " quarter, ";
       }
 
-      if (dimes > 1) {
+      if (dimes != 1) {
         dimeName = " dimes, ";
       } else {
         dimeName = " dime, ";
       }
 
-      if (nickels > 1) {
+      if (nickels != 1) {
         nickelName = " nickels and ";
       } else {
         nickelName = " nickel and ";
       }
 
-      if (pennies > 1) {
+      if (pennies != 1) {
         pennyName = " pennies.";
       } else {
         pennyName = " penny.";

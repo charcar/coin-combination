@@ -22,5 +22,7 @@ public class IntegrationTest extends FluentTest {
   }
 
   // @Test
-  // public void
+  // public void resultsTest() {
+  //     goTo("http://localhost:4567/results")
+  // }
 }
